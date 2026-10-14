@@ -131,5 +131,5 @@ A service-status message is not counted as a correct answer. A correct citation 
 | Answer Review | Measure factual correctness, condition completeness, and citation support |
 | Retrieval Methods | Compare hybrid search and reranking against the current baselines |
 | API Usage | Cache question embeddings and avoid repeated requests |
-| Reproducibility | Record dependency versions and add checkpoint restoration |
+| Reproducibility | Add automatic checkpoint restoration |
 | Operations | Measure latency and API usage |
