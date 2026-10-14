@@ -113,6 +113,10 @@ The OpenAI Python SDK connects to Liquid models through OpenRouter. No model was
 7. Run the Gradio installation and interface cells, including `demo.launch()`.
 8. Enter a complete question in the displayed chat.
 
+The package versions used during development are recorded in
+[requirements.txt](requirements.txt). The notebook's installation cells
+do not automatically use these pinned versions.
+
 A GPU is not required because the models run through API calls. Keep the Colab runtime active while using the interface.
 
 Keep the API key in Secrets and out of the repository. Repeated API calls consume quota; a `429` response may indicate a per-minute or per-day limit. Restarting the runtime clears the in-memory collection.
