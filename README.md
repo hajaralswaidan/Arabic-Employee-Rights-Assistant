@@ -44,7 +44,9 @@ Both retrievers were evaluated on the same chunks and 15 development questions.
 | BM25 | 100% |
 | Dense Embeddings | 100% |
 
-Page Hit@3 checks whether a reference page appears among the first three retrieved chunks. **It does not measure final answer accuracy.** Both methods tied on this small development set.
+Page Hit@3 measures the percentage of questions where a reference
+page appears among the top three retrieved chunks. It measures
+retrieval success, not final answer accuracy.
 
 During manual review, a working-hours answer confused daily and weekly values. Formatting the extracted value/label pairs corrected the numbers in a later test, although some conditions can still be omitted.
 
