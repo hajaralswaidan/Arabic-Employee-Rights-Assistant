@@ -4,7 +4,7 @@ My capstone project for the **Applied NLP Engineering** course at **SDAIA Academ
 
 This project helps users find information in an official Arabic employee rights guide without searching through the full document manually. It retrieves relevant passages and generates an Arabic answer with PDF-page references. When the available information is insufficient, the assistant is instructed to say so.
 
-**Course:** [SDAIA Academy — Applied NLP Engineering](https://github.com/SDAIAAcademy/applied-nlp)
+**Academy:** [SDAIA Academy](https://github.com/SDAIAAcademy)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hajaralswaidan/Arabic-Employee-Rights-Assistant/blob/main/Employee_Rights_RAG.ipynb)
 
